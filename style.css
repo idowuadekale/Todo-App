@@ -154,7 +154,7 @@ select {
 }
 
 .gmail {
-    text-align: left;
+    text-align: center;
 }
 
 a:hover {
@@ -169,4 +169,10 @@ a {
 a::after {
     color: orangered;
     background-color: black;
+}
+
+#link {
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: right;
 }

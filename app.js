@@ -157,3 +157,14 @@ function removeLocalTodos(todo) {
     todos.splice(todos.indexOf(todoIndex), 1);
     localStorage.setItem("todos", JSON.stringify(todos));
 }
+
+function myFunction() {
+    alert("You are going to Idowu Adekale Github");
+}
+
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("link").innerHTML = d.toLocaleTimeString();
+}
