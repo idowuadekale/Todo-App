@@ -77,13 +77,13 @@ function addTodo(event) {
 
     // Check mark button
     const completedButton = document.createElement('button');
-    completedButton.innerHTML = '<i class="fas fa-check></i>'
+    completedButton.innerHTML = '<i class="fa-solid fa-check"></i>'
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
 
     //Check Trash button
     const trashButton = document.createElement('button');
-    trashButton.innerHTML = '<i class="fas fa-trash></i>'
+    trashButton.innerHTML = '<i class="fa-solid fa-trash"></i>'
     trashButton.classList.add("trash-btn");
     todoDiv.appendChild(trashButton);
 
